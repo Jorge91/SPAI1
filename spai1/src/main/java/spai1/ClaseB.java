@@ -7,6 +7,12 @@ public class ClaseB {
 		super();
 		this.name = name;
 	}
+
+	@Override
+	public String toString() {
+		return "ClaseB [name=" + name + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()="
+				+ super.toString() + "]";
+	}
 	
 	
 }
