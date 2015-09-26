@@ -47,11 +47,11 @@ public class Point2Test {
 	 @Test
 	    public void testSame() {
 	     Point p1 = new Point();
-	     Point p2 = new Point();
+	     Point p3 = new Point();
 	     
-	     p1 = p2;
+	     p1 = p3;
 	     
-	     assertSame(p1, p2);
+	     assertSame(p1, p3);
 	    }
 
 
